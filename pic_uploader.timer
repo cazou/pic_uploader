@@ -1,0 +1,9 @@
+[Unit]
+Description=Run the pic_uploader script every 10 minutes
+
+[Timer]
+OnUnitActiveSec=10min
+OnBootSec=10min
+
+[Install]
+WantedBy=timers.target
